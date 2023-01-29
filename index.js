@@ -1,6 +1,8 @@
 const cf = require('cross-fetch');
 const fetch = cf.fetch;
 
+const keep_alive = require('./keep_alive.js');
+
 const firebase = require('./firebase.js');
 
 const db = firebase.database();

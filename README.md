@@ -5,3 +5,6 @@ Discord webhook for [Bulletin](https://github.com/downloadablecontent/Bulletin-B
 - **credentials**: Firebase credentials (keep secret, obviously)
 - **databaseURL**: Firebase database url
 - **webhook_url**: Discord webhook url (keep secret or anyone can send to webhook)
+
+## Running
+`npm install` then `node index.js`
